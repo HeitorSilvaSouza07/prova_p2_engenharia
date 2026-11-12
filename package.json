@@ -1,0 +1,26 @@
+{
+  "name": "projeto-p2-bruno",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ProSiga - sistema educacional (Next.js + Express + MySQL) em monorepo",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev --workspace server",
+    "dev:web": "npm run dev --workspace web",
+    "build": "npm run build --workspace web",
+    "start": "npm run start --workspace server",
+    "migrate": "node db/migrate.js",
+    "migrate:status": "node db/migrate.js --status"
+  },
+  "devDependencies": {
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  }
+}

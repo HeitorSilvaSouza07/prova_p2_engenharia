@@ -1,0 +1,45 @@
+-- =========================================================
+-- 003 — Inserts: usuários (professores e alunos)
+--   Senhas: professores -> prof1234 | alunos -> aluno1234
+-- =========================================================
+INSERT INTO usuarios (id, nome, email, senha, tipo, matricula, setor) VALUES
+  (4, 'Carlos Eduardo Lima', 'carlos.lima@prosiga.edu',
+   '$2b$10$HTKEjbxGwem.PN7nyt6DZ..1zSRcLUD1WKRo24mET824U5lA1gDo2', 'professor', '4522', 'Matemática'),
+  (5, 'Fernanda Oliveira Rocha', 'fernanda.rocha@prosiga.edu',
+   '$2b$10$HTKEjbxGwem.PN7nyt6DZ..1zSRcLUD1WKRo24mET824U5lA1gDo2', 'professor', '4523', 'Linguagens'),
+  (6, 'Ricardo Alves Souza', 'ricardo.souza@prosiga.edu',
+   '$2b$10$HTKEjbxGwem.PN7nyt6DZ..1zSRcLUD1WKRo24mET824U5lA1gDo2', 'professor', '4524', 'Ciências da Natureza'),
+  (7, 'Patrícia Mendes Dias', 'patricia.dias@prosiga.edu',
+   '$2b$10$HTKEjbxGwem.PN7nyt6DZ..1zSRcLUD1WKRo24mET824U5lA1gDo2', 'professor', '4525', 'Ciência da Computação'),
+  (8, 'Marcos Vinícius Prado', 'marcos.prado@prosiga.edu',
+   '$2b$10$HTKEjbxGwem.PN7nyt6DZ..1zSRcLUD1WKRo24mET824U5lA1gDo2', 'professor', '4526', 'História'),
+
+  (9,  'Mariana Ferreira Costa', 'mariana.costa@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261003', 'Engenharia de Software'),
+  (10, 'Lucas Gabriel Santos', 'lucas.santos@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261004', 'Ciência da Computação'),
+  (11, 'Beatriz Nunes Andrade', 'beatriz.andrade@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261005', 'Sistemas de Informação'),
+  (12, 'Rafael Martins Pinto', 'rafael.pinto@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261006', 'Engenharia de Software'),
+  (13, 'Camila Rodrigues Melo', 'camila.melo@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261007', 'Ciência da Computação'),
+  (14, 'Pedro Henrique Braga', 'pedro.braga@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261008', 'Design'),
+  (15, 'Larissa Gomes Freitas', 'larissa.freitas@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261009', 'Administração'),
+  (16, 'Gabriel Torres Ribeiro', 'gabriel.ribeiro@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261010', 'Ciência da Computação'),
+  (17, 'Isabela Moreira Cunha', 'isabela.cunha@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261011', 'Engenharia de Software'),
+  (18, 'Thiago Carvalho Reis', 'thiago.reis@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261012', 'Sistemas de Informação'),
+  (19, 'Juliana Paiva Teixeira', 'juliana.teixeira@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261013', 'Matemática'),
+  (20, 'Vinícius Carvalho Lopes', 'vinicius.lopes@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261014', 'História'),
+  (21, 'Ana Clara Bittencourt', 'ana.bittencourt@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261015', 'Ciência da Computação'),
+  (22, 'Diego Fernandes Cruz', 'diego.cruz@aluno.prosiga.edu',
+   '$2b$10$0ag.8HR/GOw7EoI7KmKQZ.2T8b02vbgq6p1ByOMyMYj93KDCWkwWS', 'aluno', '20261016', 'Engenharia de Software')
+ON CONFLICT (id) DO UPDATE SET nome = EXCLUDED.nome;
